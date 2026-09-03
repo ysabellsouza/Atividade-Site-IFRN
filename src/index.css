@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 18px;
+  background-color: #2E7D32;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #2E7D32;
+  margin-bottom: 16px;
+}
+
+p {
+  line-height: 1.6;
+  text-align: left;
+}
